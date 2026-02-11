@@ -50,6 +50,9 @@
     padding: 15px 28px;
   }
   .paddingXl {
-    padding: 85px 70px;
+    @apply py-20 px-8;
+  }
+  .paddingXls {
+    padding: 100px 0;
   }
 }
