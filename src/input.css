@@ -38,4 +38,18 @@
     opacity: 0.9;
     font-size: 14px;
   }
+  p {
+    color: var(--color-paragraphColor);
+    font-size: 14px;
+  }
+  .gradientText {
+    background: linear-gradient(to right, #ff8938, #ff0000);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    padding: 15px 28px;
+  }
+  .paddingXl {
+    padding: 85px 70px;
+  }
 }
