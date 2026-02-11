@@ -10,6 +10,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
   <!-- link Output Css -->
   <link rel="stylesheet" href="./src/output.css">
+  <!-- Favicons Icons -->
+  <link rel="shortcut icon" href="images/faviconsIcon.png" type="image/x-icon">
   <title>House</title>
 </head>
 
@@ -26,7 +28,7 @@
 
         <!-- hero left -->
         <div class="sm:basis-[50%] flex flex-col  space-y-4 md:text-left">
-          <h1 class="text-2xl sm:text-3xl lg:text-7xl font-extrabold text-headingColor text-center sm:text-left">It's
+          <h1 class="text-2xl sm:text-5xl lg:text-7xl font-extrabold text-headingColor text-center sm:text-left">It's
             good <br class="hidden sm:block">
             tea time at The <br class="hidden sm:block"> Tea House</h1>
           <p class="text-paragraphColor paragraphO text-center sm:text-left">Tea and Botanical Solutions Supplier Give
@@ -71,7 +73,7 @@
 
     <!--  Our Featured Products Section -->
     <section class="py-20">
-      <div class="containers">
+      <div class="containers space-y-10">
 
         <!-- Title And Subtitle -->
         <div class="space-y-4">
@@ -158,7 +160,7 @@
 
     <!-- Great Tea, Freshly Presented -->
     <Section class="px-4">
-      <div class="containers grid grid-cols-1 gap-4 items-center md:grid-cols-2 py-2">
+      <div class="containers space-y-10 grid grid-cols-1 gap-4 items-center md:grid-cols-2 py-2">
 
         <!-- left Great Tea Content -->
         <div class=" grid grid-cols-2 grid-rows-3 gap-6">
@@ -217,7 +219,7 @@
 
     <!-- Meet Our Super Clients Section -->
     <Section>
-      <div class="containers paddingXl bg-linear-to-r to-[#FF0000] from-[#FF8938] 
+      <div class="containers paddingXl bg-linear-to-r to-[#FF0000] from-[#FF8938] rounded-lg 
       flex flex-col gap-6 justify-between items-center md:flex-row">
 
         <!-- left Content -->
@@ -293,8 +295,6 @@
       </div>
     </Section>
 
-
-
     <!-- News & Events Section -->
     <Section class="paddingXls">
       <div class="containers space-y-6">
@@ -322,7 +322,7 @@
             <!-- news Details -->
             <div class="space-y-2 pl-2">
               <p>Feb 05, 2027</p>
-              <h2 class="text-headingColor font-bold text-2xl">Collecting 8 points for <br> discount</h2>
+              <h2 class="text-headingColor font-bold text-lg">Collecting 8 points for <br> discount</h2>
               <p>There are many variations of passages of <br> Lorem Ipsum available.</p>
               <a href="#" class="text-sm font-bold">Learn More</a>
             </div>
@@ -336,7 +336,7 @@
             <!-- news Details -->
             <div class="space-y-2 pl-2">
               <p>Feb 05, 2027</p>
-              <h2 class="text-headingColor font-bold text-2xl">Collecting 8 points for <br> discount</h2>
+              <h2 class="text-headingColor font-bold text-lg">Collecting 8 points for <br> discount</h2>
               <p>There are many variations of passages of <br> Lorem Ipsum available.</p>
               <a href="#" class="text-sm font-bold">Learn More</a>
             </div>
@@ -350,7 +350,7 @@
             <!-- news Details -->
             <div class="space-y-2 pl-2">
               <p>Feb 05, 2027</p>
-              <h2 class="text-headingColor font-bold text-2xl">Collecting 8 points for <br> discount</h2>
+              <h2 class="text-headingColor font-bold text-lg">Collecting 8 points for <br> discount</h2>
               <p>There are many variations of passages of <br> Lorem Ipsum available.</p>
               <a href="#" class="text-sm font-bold">Learn More</a>
             </div>
@@ -366,8 +366,90 @@
 
 
   <!-- Footer Area  -->
-  <footer id="footer_area">
-    <div class="containers"></div>
+  <footer id="footer_area" class="bg-linear-to-r bg-[#ffefe9]">
+    <div class="containers space-y-4 paddingXls text-center">
+
+      <!-- Top Contents -->
+      <div class="flex flex-wrap items-center justify-between text-left">
+
+        <!-- images  -->
+        <div>
+          <img src="images/cup.png" alt="icons">
+        </div>
+
+        <!-- Button and Qustion -->
+        <div class="flex items-center gap-4">
+          <p>Ready to get strated?</p>
+          <div
+            class="flex items-center justify-center mx-auto gap-2 bg-linear-to-r to-[#FF0000] from-[#FF8938] max-w-max py-3 px-5 rounded-md sm:mx-0">
+            <a href="#" class="text-white font-bold">Get Started</a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- bottom contents  -->
+      <div class="flex flex-wrap  space-x-10 justify-center mt-10 text-left">
+
+        <!-- 1 -->
+        <div>
+          <h2>Quick Links</h2>
+
+          <!-- Navigation Li -->
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Insurance</a></li>
+            <li><a href="">Privacy Policy</a></li>
+
+          </ul>
+
+        </div>
+
+        <!-- 2 -->
+        <div>
+          <h2>Our Service</h2>
+
+          <!-- Navigation Li -->
+          <ul>
+            <li><a href="">Life Insurance</a></li>
+            <li><a href="">Car Insurance</a></li>
+            <li><a href="">Health Insurance</a></li>
+            <li><a href="">House Insurance</a></li>
+
+          </ul>
+
+        </div>
+
+        <!-- 3 -->
+        <div>
+          <h2>Help</h2>
+
+          <!-- Navigation Li -->
+          <ul>
+            <li><a href="">FAQs</a></li>
+            <li><a href="">Contact Us</a></li>
+          </ul>
+
+        </div>
+
+        <!-- 4 -->
+        <div>
+          <h2>Subscribe to our <br> newsletter</h2>
+
+          <!-- input -->
+          <div class="flex">
+            <input type="text" name="" id="" placeholder="Email address"
+              class="outline-none border-b-2 border-dark2Color">
+            <img src="images/Group 3981.png" alt="icons">
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <small class="text-center">© 2027 UIDesign.to - All rights reserved.</small>
 
     </div>
   </footer>
